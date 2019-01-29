@@ -4,10 +4,10 @@
 ################################################################################
 ### Set Variables ###
 ################################################################################
-url=https://ptfe.tools.mindbody.io
-name=${PWD##*/}
-org="mindbody"
-provider="mb"
+url=$PTFE_URL               # Your PTFE Server URL
+name=${PWD##*/}             # Uses current working directory name
+org=$PTFE_ORG               # Your PTFE Organization
+provider=$PTFE_PROVIDER     # Your Module Provider
 
 ################################################################################
 ### Help ###
